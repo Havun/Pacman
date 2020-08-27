@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+    margin-left: -13px;
+}
+.row  div{
+    width:20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.brick{
+    background-color: blue;
+}
+#gameover {
+    border: 1px solid white;
+    width: 500px;
+    height: 120px;
+    color: red;
+    font-weight: bolder;
+    margin-left: 13px;
+    padding: 7px;
+    font-size:  100px;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    right: 210px;
+}
+.coin {
+    background: url(coin_ani.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#lives {
+    border: 1px solid white;
+    width: 100px;
+    height: 20px;
+    color: white;
+    margin-left: 13px;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 450px;
+}
+#pacman {
+    background: url(rightpacman.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.cherry {
+    background: url(cherry_bonus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+}
+.ghostred {
+    background: url(ghostred.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.ghostorange {
+    background: url(ghostorange.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.ghostblue {
+    background: url(ghostblue.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+#score {
+    border: 1px solid white;
+    width: 100px;
+    height: 20px;
+    color: white;
+    margin-left: 13px;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 215px;
+}
